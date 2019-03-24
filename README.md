@@ -12,6 +12,8 @@ You can [sign up for a free account](https://dashboard.datocms.com/signup) and t
 
 [![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/projects/new-from-template/static-website/gatsby-portfolio)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c4db03da-4fd6-449f-902a-58496b963ed0/deploy-status)](https://app.netlify.com/sites/competent-banach-03dc7d/deploys)
+
 ## Repo usage
 
 First, install the dependencies of this project:
