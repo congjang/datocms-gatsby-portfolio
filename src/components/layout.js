@@ -80,11 +80,11 @@ const TemplateWrapper = ({ children }) => (
       <div className="container__body">
         <div className="container__mobile-header">
           <div className="mobile-header">
-            {/* <div className="mobile-header__menu">
-              <Link to="#" data-js="toggleSidebar" />
-            </div> */}
             <div className="mobile-header__logo">
               <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
+            </div>
+            <div className="mobile-header__menu">
+              <Link to="/about">About</Link>
             </div>
           </div>
         </div>
