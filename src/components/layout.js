@@ -80,8 +80,7 @@ const TemplateWrapper = ({ children }) => (
       <div className="container__body">
         <div className="container__mobile-header">
           <div className="mobile-header">
-            <div className="mobile-header__menu">
-            {/* 여기부터는 커스텀으로 새로 작성 */}
+            {/* <div className="mobile-header__menu">
               <ul>
                 <li>
                   <Link to="/">Home</Link>
@@ -90,8 +89,8 @@ const TemplateWrapper = ({ children }) => (
                   <Link to="/about">About</Link>
                 </li>
               </ul>
-              {/* <Link to="#" data-js="toggleSidebar" /> */}
-            </div>
+              <Link to="#" data-js="toggleSidebar" />
+            </div> */}
             <div className="mobile-header__logo">
               <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
             </div>
