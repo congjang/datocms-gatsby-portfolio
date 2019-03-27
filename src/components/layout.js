@@ -81,6 +81,10 @@ const TemplateWrapper = ({ children }) => (
         <div className="container__mobile-header">
           <div className="mobile-header">
             <div className="mobile-header__menu">
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+              </ul>
               <Link to="#" data-js="toggleSidebar" />
             </div>
             <div className="mobile-header__logo">
